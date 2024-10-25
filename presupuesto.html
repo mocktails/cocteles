@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #E91E63; /* Cambiado a rosa */
+            margin-bottom: 20px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .item-icon {
+            font-size: 1.5em;
+            color: #E91E63; /* Cambiado a rosa */
+            margin-right: 15px;
+        }
+
+        .item-description {
+            font-size: 18px;
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .item-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .total, .cuota {
+            margin-top: 30px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .total {
+            color: #FF5722;
+        }
+
+        .cuota {
+            color: #E91E63; /* Cambiado a rosa */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Presupuesto </h2>
+
+        <div class="item">
+            <div class="item-icon">🥤</div>
+            <div class="item-description">Sprite: 4,000 x2</div>
+            <div class="item-price">8,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">🍎</div>
+            <div class="item-description">Frutas (Fresa, Mango, Manzana)</div>
+            <div class="item-price">15,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">💧</div>
+            <div class="item-description">Gatorade: 3,000 x4</div>
+            <div class="item-price">12,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">🍬</div>
+            <div class="item-description">Gomitas: 2,000 x5</div>
+            <div class="item-price">10,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">🧊</div>
+            <div class="item-description">Bolsas de hielo: 5,000 x3</div>
+            <div class="item-price">15,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">🤪</div>
+            <div class="item-description">okaloka</div>
+            <div class="item-price">8,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">🥤</div>
+            <div class="item-description">Vasos</div>
+            <div class="item-price">8,000</div>
+        </div>
+
+        <div class="item">
+            <div class="item-icon">🌿</div>
+            <div class="item-description">Hojas de menta</div>
+            <div class="item-price">Incluido</div>
+        </div>
+
+        <div class="total">Total: 69,000</div>
+        <div class="cuota">Cuota por persona: 23,000</div>
+    </div>
+
+</body>
+</html>
